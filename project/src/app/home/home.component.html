@@ -1,0 +1,203 @@
+<html>
+  <body>
+    <div class="header">
+      <div>
+        <img class="logo" src="assets/logo.jpg">
+        <span>LMS Application</span>
+      </div>
+      <div></div>
+      <div>
+        <input type="button" name="enroll" class="btn btn-info" value="Enroll Now">
+      </div>
+      <div>
+        <button type="button" class="btn btn-primary" (click)="onLogout($event)">LOGOUT</button>
+      </div>
+      <div class="welcome">
+        <span>Welcome back,</span> <span>{{studentName}}!</span>
+      </div>
+      <div>
+        <img class="user" src="assets/user.jpg">
+      </div>
+    </div>
+
+    <div>
+      <div class="grid">
+        <div class="classList">
+          <div style="height: 31px;">
+            <h4 style="display: inline;"><b>Class Rooms</b></h4>
+
+            <div style="float: right;">
+              <button class="sort" (click) ="getSortedClassRooms('ascend')" [hidden] ="ascending">
+                Sort
+                <i class="glyphicon glyphicon-sort-by-attributes"></i>
+              </button>
+              <button class="sort" (click) ="getSortedClassRooms('descend')" [hidden] ="descending">
+                Sort
+                <i class="glyphicon glyphicon-sort-by-attributes-alt"></i>
+              </button>
+            </div>
+
+          </div>
+
+          <div *ngFor="let class of classRooms">
+            <div class="classRoom">
+              <a role="button" (click)="getClassRoomDetails(class.classID)"><span><b>{{class.name}}</b></span></a>
+              <hr>
+              <div>
+                <span class="fa fa-book iconSmall"></span>
+                <label>Subject:</label><span><b>{{class.subject}}</b></span> <br>
+                <span class="fa fa-user-o iconSmall"></span>
+                <label>Teacher:</label><span><b>{{class.teacherName}}</b></span> <br>
+                <span class="fa fa-hashtag iconSmall"></span>
+                <label>No. of students:</label><span><b>{{class.noOfStudents}}</b></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="noticeBoard">
+            <h2>Important Notice</h2>
+            <div *ngFor="let notice of notices">
+                <div class="notice">
+                    <div class="field">&quot;{{notice.announcement}}&quot;</div>
+                    <div class="float small"><span class="fa fa-clock-o iconSmall"></span>{{notice.timeOfAnnouncement}}</div>
+                </div>
+                <hr>
+            </div>
+          </div>
+          <div class="timeTableInWeek">
+            <div>
+              <h3><span class="fa fa-calendar icon"></span>Timetable</h3>
+              <div class="classID"><span>Classroom ID:</span><b>{{classID}}</b></div>
+            </div>
+              <table class="table table-striped">
+                <thead>
+                  <th>Day</th>
+                  <th>Start</th>
+                  <th>End</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let day of weeklyTable">
+                    <td>{{day.dayOfTheWeek}}</td>
+                    <td>{{day.from}}</td>
+                    <td>{{day.to}}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr>
+          </div>
+          <div class="flexbox">
+            <div class="studentList">
+              <h3><span class="fa fa-group icon"></span>Students Enrolled</h3>
+              <table class="table">
+                <thead>
+                  <th>Name</th>
+                  <th>Mobile Number</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let student of studentList">
+                    <td>{{student.name}}</td>
+                    <td>{{student.mobileNumber}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="scorecard">
+              <h3><span class="fa fa-list-ul icon"></span>Scorecard</h3>
+              <table class="table">
+                <thead>
+                  <th>Subject</th>
+                  <th>Marks</th>
+                  <th>Max. Marks</th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let score of scores">
+                    <td>{{score.subject}}</td>
+                    <td>{{score.marks}}</td>
+                    <td>{{score.maxMarks}}</td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr>
+              <div class="marks">
+                <span class="total">Total:</span><b>{{total}} / {{maxMarks}}</b>
+              </div>
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="today-schedule">
+          <h4><b>Today's schedule</b></h4>
+
+          <mat-accordion class="my-special-class">
+            <mat-expansion-panel (opened)="panelOpenState1 = true" [expanded] = "true"
+                                 (closed)="panelOpenState1 = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <h5>Today's Classes</h5>
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <div *ngFor="let schedule of timetables">
+                <div class="schedule">
+                  <div><b>{{schedule.name}}</b></div>
+                  <div class="small">
+                    <span>{{schedule.subject}}:</span>
+                    <span class="fa fa-clock-o iconSmall"></span><span >{{schedule.from}}</span> <span class="hyphen">-</span>
+                    <span class="fa fa-clock-o iconSmall"></span><span>{{schedule.to}}</span>
+                  </div>
+                  <div>
+                    <input type="button" name="joinClass" value="Join Live Class">
+                  </div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState2 = true"
+                                 (closed)="panelOpenState2 = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <h5>Upcoming Assignments</h5>
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <div *ngFor="let assignment of assignments">
+                <div class="schedule">
+                  <div class="title"><b>{{assignment.subject}}</b></div>
+                    <div><span class="field">Topic:</span><span class="value">{{assignment.topic}}</span></div>
+                    <div><span class="field">Description:</span><span class="value">{{assignment.description}}</span></div>
+                    <div><span class="field">Timings:</span><span class="fa fa-clock-o iconSmall"></span><span class="value">{{assignment.start}}</span>
+                      <span class="hyphen">-</span><span class="fa fa-clock-o iconSmall"></span><span class="value">{{assignment.end}}</span></div>
+                    <div><span class="field">Max. marks:</span><span class="value">{{assignment.maxMarks}}</span></div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel (opened)="panelOpenState3 = true"
+                                 (closed)="panelOpenState3 = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <h5>Upcoming Tests</h5>
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <div class="noTest">You don't have any test this week!</div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel (opened)="panelOpenState4 = true"
+                                 (closed)="panelOpenState4 = false">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  <h5>ToDo List</h5>
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <div class="noTest">You don't have any ToDo yet!</div>
+            </mat-expansion-panel>
+          </mat-accordion>
+
+        </div>
+
+      </div>
+    </div>
+    <footer>&copy; Copyright 2020 LMS Application</footer>
+
+  </body>
+</html>

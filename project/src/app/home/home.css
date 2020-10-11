@@ -1,0 +1,258 @@
+body{
+  height: 100%;
+  min-width: 1024px;
+  min-height: 768px;
+}
+
+.header{
+  height: 60px;
+  display: grid;
+  grid-template-columns: 20em auto 6em 8em 15em 5em;
+}
+
+.header > div{
+  padding: 10px;
+}
+
+.logo{
+  height: 40px;
+  margin-left: 20px;
+}
+
+.user{
+  height: 40px;
+  border-radius: 50%;
+}
+
+.welcome{
+  text-align: left;
+  margin-top: 5px;
+}
+
+.logo + span, .welcome > span{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px auto 250px;
+    grid-column-gap: 5px;
+    background-color: #e6e6e6;
+    padding: 10px 7px 7px 7px;
+}
+
+.grid > div{
+  background-color: white;
+  border-radius: 4px;
+}
+
+.classList, .today-schedule{
+  background-color: #e6e6e6 !important;
+}
+
+.today-schedule > h4{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.classRoom{
+  background-color: white !important;
+  padding: 7px;
+  border-radius: 3px;
+  border-bottom: 10px solid #e6e6e6;
+  border-left: 5px solid #e6e6e6;
+  border-right: 5px solid #e6e6e6;
+}
+
+.schedule{
+  background-color: white;
+  padding: 7px;
+  border-radius: 3px;
+  border-bottom: 3px solid #e6e6e6;
+}
+
+input[name='joinClass']{
+  background-color: #f26e1d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0px 5px 0px;
+}
+
+input[name="enroll"]{
+  float: right;
+  margin-right: 5px;
+}
+
+label{
+  color: grey;
+  font-weight: 600;
+  margin-right: 16px;
+}
+
+h4{
+  margin-left: 5px;
+}
+
+h5{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+hr{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border-top: 2px solid rgba(0,0,0,.1) !important;
+}
+
+.sort{
+  background-color: green;
+  color: white;
+  border: transparent;
+  height: 25px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.mat-expansion-panel-header{
+  padding: 3px !important;
+}
+
+.title{
+  background-color: green;
+  color: white;
+  padding: 3px;
+  text-align: center;
+}
+.field{
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+  margin-right: 3px;
+}
+
+.value{
+  font-size: 13px;
+  font-weight: 500;
+  font-size: bold;
+}
+
+.noTest{
+  font-size: 20px;
+  padding: 30px;
+  font-weight: 700;
+  background-color: white;
+}
+
+a[role='button']{
+  color: #337ab7;
+}
+
+.noticeBoard{
+  background-color: rgb(255, 183, 8);
+  padding: 5px;
+}
+
+.noticeBoard > h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10px;
+  font-family: cursive;
+}
+
+.notice{
+  background-color: white;
+  padding: 10px;
+  width: 70%;
+  margin: auto auto;
+  border-radius: 5px;
+}
+
+.notice + hr{
+  border-top: 2px solid rgb(255, 183, 8) !important;
+}
+
+.float{
+  text-align: right;
+}
+
+.timeTableInWeek > table{
+  padding: 20px;
+}
+
+.timeTableInWeek > div{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.timeTableInWeek > div > h3, .studentList > h3, .scorecard > h3{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 7px;
+}
+
+.timeTableInWeek > hr{
+  border-top: 3px solid #e6e6e6 !important;
+}
+
+th, td{
+  text-align: center;
+}
+
+.classID{
+  text-align: right;
+  padding: 7px;
+  color: green;
+  font-size: 17px
+}
+
+.classID > span{
+  margin-right: 8px;
+  color: black;
+}
+
+.studentList{
+  border-right: 3px solid #e6e6e6;
+}
+
+.flexbox{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.total{
+  color: red;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.marks{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.icon{
+  font-size: 16px;
+  margin-right: 7px;
+  color: #767473;
+}
+
+.iconSmall{
+  font-size: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #767473;
+}
+
+.hyphen{
+  margin-left: 5px;
+}
+
+footer{
+  height: 35px;
+  font-size: 12px;
+}

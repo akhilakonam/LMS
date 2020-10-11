@@ -1,0 +1,58 @@
+.background{
+  background-color: #e6e6e6;
+  height: 83vh;
+  display:flex;
+  align-items: center;
+}
+
+.formContainer{
+  width: 40%;
+  background-color: white;
+  margin: auto auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+label{
+  font-weight: 600;
+}
+
+input[type=tel]{
+  width: 25em;
+}
+
+#success{
+  color: green;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+#error{
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+.header{
+  height: 60px;
+  display: grid;
+  grid-template-columns: auto;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.logo{
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.logo + span{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 5px;
+}

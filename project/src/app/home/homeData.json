@@ -1,0 +1,370 @@
+{
+  "classRooms" : [
+      {
+          "name": "Class III Telugu",
+          "classRoomID":"857971164",
+          "subject": "Telugu",
+          "teacherName": "Narmada",
+          "timetable": [
+              {"dayOfTheWeek" : "Monday", "from":"9:00 AM", "to": "10:00 AM"},
+              {"dayOfTheWeek" : "Tuesday", "from":"9:00 AM", "to": "10:00 AM"},
+              {"dayOfTheWeek" : "Wednesday", "from":"9:00 AM", "to": "10:00 AM"},
+              {"dayOfTheWeek" : "Thursday", "from":"9:00 AM", "to": "10:00 AM"},
+              {"dayOfTheWeek" : "Friday", "from":"9:00 AM", "to": "10:00 AM"},
+              {"dayOfTheWeek" : "Saturday", "from":"9:00 AM", "to": "10:00 AM"}
+          ],
+          "students":[
+              {"name": "Harshini", "mobileNumber": "1111111111"},
+              {"name": "Akshay", "mobileNumber": "9827012012"},
+              {"name": "Likvith", "mobileNumber": "8991741921"},
+              {"name": "Chandana", "mobileNumber": "8501285921"},
+              {"name": "Dinesh", "mobileNumber": "9425010231"},
+              {"name": "Nadeem", "mobileNumber": "9818123237"},
+              {"name": "Henry", "mobileNumber": "9308712123"},
+              {"name": "Raahi", "mobileNumber": "9425012345"},
+              {"name": "Gautham", "mobileNumber": "9928410231"},
+              {"name": "Bhargav", "mobileNumber": "9121212421"}
+          ],
+          "noticeBoard":[
+              {
+                "announcement": "Telugu mid term exam will be conducted on Oct 12, 2020",
+                "timeOfAnnouncement": "10/11/2020, 10:30 AM"
+              },
+              {
+                "announcement": "Mid term fee payment last date is extended to Nov 30, 2020",
+                "timeOfAnnouncement":"10/9/2020, 10:30 AM"
+              }
+          ],
+          "test": [
+              {
+                  "topic":"VarnaMala Test",
+                  "testDate": "10/19/2020, 10:30 AM",
+                  "testSubmissionDate":"10/19/2020, 12:30 PM",
+                  "testDuration": "120 min",
+                  "description": "Write complete varnamala",
+                  "Maxmarks": "25"
+              }
+          ],
+          "assignment": [
+              {
+                  "topic":"Lesson 2. Q/A",
+                  "testDate": "10/10/2020, 9:00 AM",
+                  "testSubmissionDate":"10/10/2020, 10:00 AM",
+                  "testDuration": "60 min",
+                  "description": "written test of lesson 2 Q/A",
+                  "Maxmarks": "10"
+              }
+          ]
+      },
+
+      {
+          "name": "Class III Hindi",
+          "classRoomID":"912967325",
+          "subject": "Hindi",
+          "teacherName": "Sophie",
+          "timetable": [
+              {"dayOfTheWeek" : "Monday", "from":"10:00 AM", "to": "11:00 AM"},
+              {"dayOfTheWeek" : "Tuesday", "from":"10:00 AM", "to": "11:00 AM"},
+              {"dayOfTheWeek" : "Wednesday", "from":"10:00 AM", "to": "11:00 AM"},
+              {"dayOfTheWeek" : "Thursday", "from":"10:00 AM", "to": "11:00 AM"},
+              {"dayOfTheWeek" : "Friday", "from":"10:00 AM", "to": "11:00 AM"},
+              {"dayOfTheWeek" : "Saturday", "from":"10:00 AM", "to": "11:00 AM"}
+          ],
+          "students":[
+              {"name": "Harshini", "mobileNumber": "1111111111"},
+              {"name": "Akshay", "mobileNumber": "9827012012"},
+              {"name": "Likvith", "mobileNumber": "8991741921"},
+              {"name": "Chandana", "mobileNumber": "8501285921"},
+              {"name": "Dinesh", "mobileNumber": "9425010231"},
+              {"name": "Nadeem", "mobileNumber": "9818123237"},
+              {"name": "Henry", "mobileNumber": "9308712123"},
+              {"name": "Raahi", "mobileNumber": "9425012345"},
+              {"name": "Gautham", "mobileNumber": "9928410231"},
+              {"name": "Bhargav", "mobileNumber": "9121212421"}
+          ],
+          "noticeBoard":[
+              {
+                "announcement": "Hindi mid term exam will be conducted on Oct 20, 2020",
+                "timeOfAnnouncement": "10/9/2020, 10:30 AM"
+              },
+              {
+                "announcement": "Mid term fee payment last date is extended to Nov 30, 2020",
+                "timeOfAnnouncement": "10/11/2020, 10:30 AM"
+              }
+          ],
+          "test": [
+              {
+                  "topic":"Poem 3 test",
+                  "testDate": "10/20/2020, 10:30 AM",
+                  "testSubmissionDate":"10/20/2020, 12:30 PM",
+                  "testDuration": "120 min",
+                  "description": "Poem 3 written test",
+                  "Maxmarks": "25"
+              }
+          ],
+          "assignment": [
+              {
+                  "topic":"Poem 2 test",
+                  "testDate": "10/10/2020, 10:00 AM",
+                  "testSubmissionDate":"10/10/2020, 11:00 AM",
+                  "testDuration": "60 min",
+                  "description": "Poem 2 meanings test",
+                  "Maxmarks": "10"
+              }
+          ]
+      },
+
+      {
+          "name": "Class III English",
+          "classRoomID":"38943678",
+          "subject": "English",
+          "teacherName": "Shyamala",
+          "timetable": [
+              {"dayOfTheWeek" : "Monday", "from":"11:00 AM", "to": "12:00 PM"},
+              {"dayOfTheWeek" : "Tuesday", "from":"11:00 AM", "to": "12:00 PM"},
+              {"dayOfTheWeek" : "Wednesday", "from":"11:00 AM", "to": "12:00 PM"},
+              {"dayOfTheWeek" : "Thursday", "from":"11:00 AM", "to": "12:00 PM"},
+              {"dayOfTheWeek" : "Friday", "from":"11:00 AM", "to": "12:00 PM"},
+              {"dayOfTheWeek" : "Saturday", "from":"11:00 AM", "to": "12:00 PM"}
+          ],
+          "students":[
+              {"name": "Harshini", "mobileNumber": "1111111111"},
+              {"name": "Akshay", "mobileNumber": "9827012012"},
+              {"name": "Likvith", "mobileNumber": "8991741921"},
+              {"name": "Chandana", "mobileNumber": "8501285921"},
+              {"name": "Dinesh", "mobileNumber": "9425010231"},
+              {"name": "Nadeem", "mobileNumber": "9818123237"},
+              {"name": "Henry", "mobileNumber": "9308712123"},
+              {"name": "Raahi", "mobileNumber": "9425012345"},
+              {"name": "Gautham", "mobileNumber": "9928410231"},
+              {"name": "Bhargav", "mobileNumber": "9121212421"}
+          ],
+          "noticeBoard":[
+              {
+                "announcement": "English mid term exam will be conducted on Oct 21, 2020",
+                "timeOfAnnouncement": "10/9/2020, 10:30 AM"
+              },
+              {
+                "announcement": "Mid term fee payment last date is extended to Nov 30, 2020",
+                "timeOfAnnouncement": "10/11/2020, 10:30 AM"
+              }
+          ],
+          "test": [
+              {
+                  "topic":"Test on lessons and poems",
+                  "testDate": "10/21/2020, 10:30 AM",
+                  "testSubmissionDate":"10/21/2020, 12:30 PM",
+                  "testDuration": "120 min",
+                  "description": "Test will be conducted on lesson 1,2,3 and poems 1,2 ",
+                  "Maxmarks": "25"
+              }
+          ],
+          "assignment": [
+              {
+                  "topic":"Test on lesson 3",
+                  "testDate": "10/10/2020, 11:00 AM",
+                  "testSubmissionDate":"10/10/2020, 12:00 PM",
+                  "testDuration": "60 min",
+                  "description": "Synonyms and Antonyms from lesson 3",
+                  "Maxmarks": "10"
+              }
+          ]
+      },
+
+      {
+          "name": "Class III Mathematics",
+          "classRoomID":"761374977",
+          "subject": "Maths",
+          "teacherName": "Lakshmi",
+          "timetable": [
+              {"dayOfTheWeek" : "Monday", "from":"2:00 PM", "to": "3:00 PM"},
+              {"dayOfTheWeek" : "Tuesday", "from":"2:00 PM", "to": "3:00 PM"},
+              {"dayOfTheWeek" : "Wednesday", "from":"2:00 PM", "to": "3:00 PM"},
+              {"dayOfTheWeek" : "Thursday", "from":"2:00 PM", "to": "3:00 PM"},
+              {"dayOfTheWeek" : "Friday", "from":"2:00 PM", "to": "3:00 PM"},
+              {"dayOfTheWeek" : "Saturday", "from":"2:00 PM", "to": "3:00 PM"}
+          ],
+          "students":[
+              {"name": "Harshini", "mobileNumber": "1111111111"},
+              {"name": "Akshay", "mobileNumber": "9827012012"},
+              {"name": "Likvith", "mobileNumber": "8991741921"},
+              {"name": "Chandana", "mobileNumber": "8501285921"},
+              {"name": "Dinesh", "mobileNumber": "9425010231"},
+              {"name": "Nadeem", "mobileNumber": "9818123237"},
+              {"name": "Henry", "mobileNumber": "9308712123"},
+              {"name": "Raahi", "mobileNumber": "9425012345"},
+              {"name": "Gautham", "mobileNumber": "9928410231"},
+              {"name": "Bhargav", "mobileNumber": "9121212421"}
+          ],
+          "noticeBoard":[
+              {
+                "announcement": "Maths mid term exam will be conducted on Oct 22, 2020",
+                "timeOfAnnouncement": "10/9/2020, 10:30 AM"
+              },
+              {
+                "announcement": "Mid term fee payment last date is extended to Nov 30, 2020",
+                "timeOfAnnouncement": "10/11/2020, 10:30 AM"
+              }
+          ],
+          "test": [
+              {
+                  "topic":"Test on Block 1,2,3",
+                  "testDate": "10/22/2020, 10:30 AM",
+                  "testSubmissionDate":"10/22/2020, 12:30 PM",
+                  "testDuration": "120 min",
+                  "description": "Block 1,2,3 Additions and Subtractions",
+                  "Maxmarks": "25"
+              }
+          ],
+          "assignment": [
+              {
+                  "topic":"Worksheet Assignment",
+                  "testDate": "10/10/2020, 2:00 PM",
+                  "testSubmissionDate":"10/10/2020, 3:00 PM",
+                  "testDuration": "60 min",
+                  "description": "Fill the worksheet in Block 4",
+                  "Maxmarks": "10"
+              }
+          ]
+      },
+
+      {
+          "name": "Class III Science",
+          "classRoomID":"987813551",
+          "subject": "Science",
+          "teacherName": "Madhavi",
+          "timetable": [
+              {"dayOfTheWeek" : "Monday", "from":"3:00 PM", "to": "4:00 PM"},
+              {"dayOfTheWeek" : "Tuesday", "from":"3:00 PM", "to": "4:00 PM"},
+              {"dayOfTheWeek" : "Wednesday", "from":"3:00 PM", "to": "4:00 PM"},
+              {"dayOfTheWeek" : "Thursday", "from":"3:00 PM", "to": "4:00 PM"},
+              {"dayOfTheWeek" : "Friday", "from":"3:00 PM", "to": "4:00 PM"},
+              {"dayOfTheWeek" : "Saturday", "from":"3:00 PM", "to": "4:00 PM"}
+          ],
+          "students":[
+              {"name": "Harshini", "mobileNumber": "1111111111"},
+              {"name": "Akshay", "mobileNumber": "9827012012"},
+              {"name": "Likvith", "mobileNumber": "8991741921"},
+              {"name": "Chandana", "mobileNumber": "8501285921"},
+              {"name": "Dinesh", "mobileNumber": "9425010231"},
+              {"name": "Nadeem", "mobileNumber": "9818123237"},
+              {"name": "Henry", "mobileNumber": "9308712123"},
+              {"name": "Raahi", "mobileNumber": "9425012345"},
+              {"name": "Gautham", "mobileNumber": "9928410231"},
+              {"name": "Bhargav", "mobileNumber": "9121212421"}
+          ],
+          "noticeBoard":[
+              {
+                "announcement": "Science mid term exam will be conducted on Oct 23, 2020",
+                "timeOfAnnouncement": "10/9/2020, 10:30 AM"
+              },
+              {
+                "announcement": "Mid term fee payment last date is extended to Nov 30, 2020",
+                "timeOfAnnouncement": "10/11/2020, 10:30 AM"
+              }
+          ],
+          "test": [
+              {
+                  "topic":"Test on Organs chapter",
+                  "testDate": "10/23/2020, 10:30 AM",
+                  "testSubmissionDate":"10/23/2020, 12:30 PM",
+                  "testDuration": "120 min",
+                  "description": "Write functions of each organ in human body",
+                  "Maxmarks": "25"
+              }
+          ],
+          "assignment": [
+              {
+                  "topic":"Test on plants chapter",
+                  "testDate": "10/10/2020, 3:00 PM",
+                  "testSubmissionDate":"10/10/2020, 4: 00 PM",
+                  "testDuration": "60 min",
+                  "description": "Write difference between grains and pulses",
+                  "Maxmarks": "10"
+              }
+          ]
+      },
+
+      {
+          "name": "Class III Social Studies",
+          "classRoomID":"950958450",
+          "subject": "Social",
+          "teacherName": "Vijaya",
+          "timetable": [
+              {"dayOfTheWeek" : "Monday", "from":"4:00 PM", "to": "5:00 PM"},
+              {"dayOfTheWeek" : "Tuesday", "from":"4:00 PM", "to": "5:00 PM"},
+              {"dayOfTheWeek" : "Wednesday", "from":"4:00 PM", "to": "5:00 PM"},
+              {"dayOfTheWeek" : "Thursday", "from":"4:00 PM", "to": "5:00 PM"},
+              {"dayOfTheWeek" : "Friday", "from":"4:00 PM", "to": "5:00 PM"},
+              {"dayOfTheWeek" : "Saturday", "from":"4:00 PM", "to": "5:00 PM"}
+          ],
+          "students":[
+              {"name": "Harshini", "mobileNumber": "1111111111"},
+              {"name": "Akshay", "mobileNumber": "9827012012"},
+              {"name": "Likvith", "mobileNumber": "8991741921"},
+              {"name": "Chandana", "mobileNumber": "8501285921"},
+              {"name": "Dinesh", "mobileNumber": "9425010231"},
+              {"name": "Nadeem", "mobileNumber": "9818123237"},
+              {"name": "Henry", "mobileNumber": "9308712123"},
+              {"name": "Raahi", "mobileNumber": "9425012345"},
+              {"name": "Gautham", "mobileNumber": "9928410231"},
+              {"name": "Bhargav", "mobileNumber": "9121212421"}
+          ],
+          "noticeBoard":[
+              {
+                "announcement": "Social science mid term exam will be conducted on Oct 24, 2020",
+                "timeOfAnnouncement": "10/9/2020, 10:30 AM"
+              },
+              {
+                "announcement": "Mid term fee payment last date is extended to Nov 30, 2020",
+                "timeOfAnnouncement": "10/11/2020, 10:30 AM"
+              }
+          ],
+          "test": [
+              {
+                  "topic":"Test on Indian subcontinent Chapter",
+                  "testDate": "10/24/2020, 10:30 AM",
+                  "testSubmissionDate":"10/24/2020, 12:30 PM",
+                  "testDuration": "120 min",
+                  "description": "Name and describe any 5 mountain ranges in India",
+                  "Maxmarks": "25"
+              }
+          ],
+          "assignment": [
+              {
+                  "topic":"Test on Indian rivers",
+                  "testDate": "10/10/2020, 4:00 PM",
+                  "testSubmissionDate":"10/10/2020, 5:00 PM",
+                  "testDuration": "120 min",
+                  "description": "Name and describe any 5 rivers in Northern India",
+                  "Maxmarks": "10"
+              }
+          ]
+      }
+  ],
+
+  "students":[
+    {"name": "Harshini", "mobileNumber": "1111111111"},
+    {"name": "Akshay", "mobileNumber": "9827012012"},
+    {"name": "Likvith", "mobileNumber": "8991741921"},
+    {"name": "Chandana", "mobileNumber": "8501285921"},
+    {"name": "Dinesh", "mobileNumber": "9425010231"},
+    {"name": "Nadeem", "mobileNumber": "9818123237"},
+    {"name": "Henry", "mobileNumber": "9308712123"},
+    {"name": "Raahi", "mobileNumber": "9425012345"},
+    {"name": "Gautham", "mobileNumber": "9928410231"},
+    {"name": "Bhargav", "mobileNumber": "9121212421"}
+  ],
+
+  "scoreCard": {
+    "totalMarks": "150",
+    "scorebySubject": [
+      {"subject": "Telugu", "marks": "20", "maxMarks": "25"},
+      {"subject": "Hindi", "marks": "21", "maxMarks": "25"},
+      {"subject": "English", "marks": "22", "maxMarks": "25"},
+      {"subject": "Maths", "marks": "24", "maxMarks": "25"},
+      {"subject": "Science", "marks": "20", "maxMarks": "25"},
+      {"subject": "Social", "marks": "19", "maxMarks": "25"}
+    ]
+  }
+}
